@@ -30,10 +30,10 @@ documents_verification/
 ```
 
 ## Setup & Run Instructions
-- Prerequisites:
+Prerequisites:
 - Python 3.9+
 
-- Installation:
+Installation:
 - git clone https://github.com/FaroukDaboussi0/BigBang-VectorsInOrbit.git
 
   ## Team Members
