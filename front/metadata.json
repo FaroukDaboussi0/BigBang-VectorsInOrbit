@@ -1,0 +1,7 @@
+{
+  "name": "TrustLend AI",
+  "description": "An AI-powered loan decision platform for banks featuring a 3-layer decision pipeline: Multimodal Data Intake, AI Analysis & Validation, and Intelligent Decision Output.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
