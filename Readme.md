@@ -162,11 +162,4 @@ Submit a full application package including personal data and transaction histor
 *   **Rym Tangour** - Quality Assurance & Testing
 *   **Bechir Mlaouhia** - System Design & Documentation
 
----
-
-###  Note for Judges
-*   All core logic is located in the **`main`** branch.
-*   Complexity in visual embedding and cross-validation is documented via inline comments in `vector_utils.py` and `feature_engine.py`.
-
-***
 
