@@ -10,10 +10,6 @@ TrustLend is a secure, AI-driven lending platform designed to evaluate loan appl
 
 ---
 
-##  Platform Link
-*   **Live Demo:** [Insert Link Here or state "Local Deployment Only"]
-*   **Video Walkthrough:** [Insert Link if available]
-
 ---
 
 ## 🛠 Technologies Used
@@ -164,7 +160,7 @@ Submit a full application package including personal data and transaction histor
 
 ---
 
-## 👥 Team Members
+## Team Members
 *   **Farouk Daboussi** - AI & Backend Lead
 *   **Rabii Nasri** - Frontend Architect
 *   **Youssef Baryoul** - Data Science & Embeddings
@@ -173,7 +169,7 @@ Submit a full application package including personal data and transaction histor
 
 ---
 
-### ⚠️ Note for Judges
+###  Note for Judges
 *   All core logic is located in the **`main`** branch.
 *   Complexity in visual embedding and cross-validation is documented via inline comments in `vector_utils.py` and `feature_engine.py`.
 
