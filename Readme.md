@@ -1,8 +1,3 @@
-This is a comprehensive, professional **README.md** tailored to the specific requirements of your hackathon. I have integrated your tech stack (Python 3.11, Groq, CLIP, Qdrant Cloud) and mapped out the logic for your endpoints.
-
-Copy the content below into your `README.md` file.
-
-***
 
 # TrustLend: AI-Powered Secure Lending & Fraud Detection
 
