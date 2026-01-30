@@ -25,20 +25,9 @@ TrustLend is a secure, AI-driven lending platform designed to evaluate loan appl
 
 ---
 
-## Project Architecture
 
-```mermaid
-graph TD
-    A[Frontend: React] -->|Upload Docs / Data| B[Backend: FastAPI]
-    B --> C{Orchestrator}
-    C --> D[Visual Verification: CLIP + Qdrant]
-    C --> E[Data Extraction: Groq/Gemini OCR]
-    C --> F[Similarity Search: Qdrant Risk/Fraud Collections]
-    F --> G[Explainable AI: Decision Logic]
-    G -->|Final Report| A
-```
 
----
+
 
 ##  Project Hierarchy
 ```text
