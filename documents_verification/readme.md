@@ -1,6 +1,6 @@
 # Loan Document Underwriting API
 
-## What This Does (In Plain English)
+## What This Does 
 
 Imagine you're applying for a loan at a bank. You need to submit a stack of documents: your ID card, salary slips, bank statements, tax records, and more. Traditionally, a human underwriter would manually review all these documents, cross-check information, look for inconsistencies, and decide whether your application is legitimate.
 
