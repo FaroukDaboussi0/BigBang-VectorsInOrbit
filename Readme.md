@@ -1,50 +1,48 @@
-# 🏦 IntelliCredit: Vectors In Orbit 🚀
-**Intelligent Decision Memory Retrieval Pipeline for Credit Risk & Fraud Detection**
+# TrustLend
 
-Built for the **BigBang-VectorsInOrbit** Repository.
+## Description
+**TrustLend** is a secure, AI-powered lending platform designed to assist financial institutions in evaluating loan applications with speed, accuracy, and transparency.  
+The platform leverages **vector-based search and decision memory**, comparing new loan applications against historically similar cases to support fraud detection and risk assessment. It combines applicant profiling, document verification, intelligent similarity matching, and explainable AI to provide clear, human-readable justifications for every decision.
 
-## 🌟 Overview
-IntelliCredit is a next-generation "Self-Learning" credit underwriting system. Unlike traditional static models, this pipeline utilizes **Dual-Path Vector Retrieval (RAG)** to compare new loan applicants against a "Historical Decision Memory." 
+## Features
+- Applicant identity and document verification
+- Loan application analysis
+- Similarity-based retrieval of historical loan cases
+- Fraud and risk detection
+- Explainable AI-driven decision support
 
-By combining **Llama 3.3 (Groq)** with **Qdrant Vector Database**, the system doesn't just predict; it reasons based on the bank's past successes and failures.
 
----
+## Tech Stack
+- Python
+- FastAPI
+- Google Generative AI (Gemini)
+- Qdrant (Vector Database)
+- FastEmbed (Image Embeddings)
+- Pillow (Image Processing)
+- Pydantic
 
-## 🏗️ Architecture
-The system follows a standalone, modular architecture:
+## Project Structure
+```text
+documents_verification/
+│── QdrantIDCard.ipynb
+│── documents_verification.py
+│── README.md
+```
 
-1. **Input**: Loan Application + Raw Transaction History.
-2. **Feature Engine**: Standalone module extracting 50+ forensic and financial ratios.
-3. **Similarity Retrieval (Memory)**: 
-    *   **Path A (Risk)**: Finds financial "twins" to assess creditworthiness.
-    *   **Path B (Fraud)**: Identifies behavioral anomalies and network overlaps (IP/Device).
-4. **Brain Orchestrator**: A Forensic LLM (Llama 3.3) + Rule-Based system that synthesizes memory into a final verdict.
-5. **Self-Learning Loop**: Human experts finalize decisions, which are "upserted" back into the Vector Store to improve future AI accuracy.
+## Setup & Run Instructions
+- Prerequisites:
+- Python 3.9+
 
----
+- Installation:
+- git clone https://github.com/FaroukDaboussi0/BigBang-VectorsInOrbit.git
 
-## 🚀 Key Features
-- **Forensic Reasoning**: Detects "Liar Loans" by analyzing the gap between claimed income and spending behavior.
-- **Network Intelligence**: Detects Fraud Hubs using IP and Device sharing density scores.
-- **Decision Memory**: Every human manual approval/rejection makes the AI smarter.
-- **FastAPI Backend**: Industrial-strength asynchronous API.
-- **Streamlit Dashboard**: Beautiful UI for underwriters to visualize "Past Ghosts" (Twins) found in memory.
+  ## Team Members
+  - Farouk Daboussi
+  - Rabii Nasri
+  - Youssef Baryoul
+  - Rym Tangour
+  - Bechir Mlaouhia
 
----
+## Status
 
-## 🛠️ Tech Stack
-- **Language**: Python 3.10+
-- **Brain**: Groq API (Llama 3.3 70B)
-- **Memory**: Qdrant Vector Database
-- **API Framework**: FastAPI + Pydantic v2
-- **Dashboard**: Streamlit
-- **Math**: Scikit-Learn (Scalers), Pandas, NumPy
-
----
-
-## 🔧 Installation & Setup
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/FaroukDaboussi0/BigBang-VectorsInOrbit.git
-   cd intelli-credit-pipeline
+Project under active development.
