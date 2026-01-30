@@ -170,8 +170,3 @@ Submit a full application package including personal data and transaction histor
 
 ***
 
-### Final Checklist for You:
-1.  **`requirements.txt`**: Ensure you run `pip freeze > requirements.txt` so it includes `fastapi`, `qdrant-client`, `groq`, `fastembed`, etc.
-2.  **`main` branch**: Make sure all your code is pushed to the `main` or `master` branch before the deadline.
-3.  **Architecture Diagram**: The Mermaid diagram above will render directly on GitHub as a clean flowchart.
-4.  **Versions**: I've specified Python 3.11 as you requested. Ensure your code doesn't use 3.12+ specific features if your environment is 3.11.
