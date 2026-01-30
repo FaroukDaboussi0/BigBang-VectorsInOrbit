@@ -1,0 +1,18 @@
+# Credentials
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+credit/
+.credit/
+
+# Local Models (Joblib files are large, usually not pushed)
+models/*.joblib
+
+# Dashboard
+.streamlit/
+dashboard/*
+
+documents/
